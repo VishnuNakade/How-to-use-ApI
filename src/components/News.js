@@ -21,7 +21,7 @@ export default function News(props) {
   return (
     <div className='container'>
       <div className="row">
-      {/* populate NewsItems */}
+      {/* populate Newscards */}
       {articles.map((element)=>{
             return <div className="col-md-4 my-5" key={element.url}>
                 <Newscard title={element.title} img={element.urlToImage}/>
